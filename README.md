@@ -109,7 +109,7 @@ PRINTER_IP       = "192.168.1.XXX"          # ← Your printer's IP
 PRINTER_PORT     = 631
 PRINTER_IPP_PATH = "/ipp/print"              # ← From the probe above
 PRINTER_URI      = "ipps://192.168.1.XXX:631/ipp/print"
-LOG_FILE         = "/share/homes/nasadmin/epson_keep_alive.log"
+LOG_FILE         = "/share/homes/[user name]/epson_keep_alive.log"
 PAGE_H_IN        = 3.0                       # Partial page height in inches
 ```
 
