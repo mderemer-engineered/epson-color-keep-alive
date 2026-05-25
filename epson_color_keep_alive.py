@@ -26,9 +26,9 @@ from PIL import Image, ImageDraw
 PRINTER_IP       = "192.168.1.129"
 PRINTER_PORT     = 631
 PRINTER_IPP_PATH = "/ipp/print"
-PRINTER_URI      = "ipps://192.168.1.129:631/ipp/print"
+PRINTER_URI      = "ipps://192.168.1.xxx:631/ipp/print"
 JOB_NAME         = "ColorKeepAlive"
-LOG_FILE         = "/share/homes/nasadmin/epson_keep_alive.log"
+LOG_FILE         = "/share/homes/xxxx/epson_keep_alive.log"
 DPI              = 150    # 150dpi — low res is fine for nozzle exercise
 PAGE_W_IN        = 8.5
 PAGE_H_IN        = 3.0    # Only 3 inches tall — saves paper
