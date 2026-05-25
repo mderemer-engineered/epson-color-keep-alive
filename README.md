@@ -186,16 +186,6 @@ crontab -e
 tail -f /share/homes/nasadmin/epson_keep_alive.log
 ```
 
-### Printer sleep mode
-
-The WF-7720 has an aggressive sleep timer. If the cron job fires while the
-printer is asleep it may time out before the job is accepted. Two options:
-
-1. Set **Settings → Printer Settings → Sleep Timer** to 60 minutes or more on
-   the printer touchscreen
-2. Send a wake ping before printing — the printer wakes on network activity
-   within a few seconds
-
 ---
 
 ## How it works
